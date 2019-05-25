@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import ReportError
 import re    #正则表达式
-class ReportCheckAI(object):
+class AIReportCheck(object):
     """
     mocking a person to check report
 

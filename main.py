@@ -13,7 +13,7 @@ Created on 2019/05/25
 import os
 
 import docx
-import ReportCheckAI
+import AIReportCheck
 
 
 import win32com
@@ -34,7 +34,7 @@ try:
 except e:
     print(e.message)
 
-r=ReportCheckAI.ReportCheckAI(document)
+r=AIReportCheck.AIReportCheck(document)
 r.CheckReport()
 
 
