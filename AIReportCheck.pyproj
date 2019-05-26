@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{d476ea69-0ad9-43b7-b924-b224b8d9fa09}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>temp.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -31,6 +31,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ReportWarnning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="temp.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
